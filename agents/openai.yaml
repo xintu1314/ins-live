@@ -1,0 +1,4 @@
+interface:
+  display_name: "INS 动图创意导演"
+  short_description: "优先套用已练的 INS 动效参考，以 iOS 灰色磨砂 UI 和场景适配制作醒目动图"
+  default_prompt: "用 $ins-live 基于现有效果给这张照片提出 3 个文字方案，等我选定后再生成一版动图。"

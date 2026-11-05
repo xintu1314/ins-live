@@ -1,0 +1,178 @@
+[
+  {
+    "id": "under-the-trees",
+    "title": "树影咖啡 · 耳机与五线谱",
+    "description": "白色耳机贴合咖啡，宽幅五线谱与音符流动，搭配灰色播放器。",
+    "status": "近期案例",
+    "gif": "examples/under-the-trees/animation.gif",
+    "mp4": "examples/under-the-trees/animation.mp4"
+  },
+  {
+    "id": "cherry-drift",
+    "title": "CHERRY · 漂浮字母",
+    "description": "樱桃饮料旁独立字母漂移、展开，气泡配合循环。",
+    "status": "流程更新测试",
+    "gif": "examples/cherry-drift/animation.gif",
+    "mp4": "examples/cherry-drift/animation.mp4"
+  },
+  {
+    "id": "next-stop-bookshop",
+    "title": "冷调街角 · 下一站书店",
+    "description": "地图以地面透视落位，鞋子在前景遮挡，路线依次出现。",
+    "status": "近期案例",
+    "gif": "examples/next-stop-bookshop/animation.gif",
+    "mp4": "examples/next-stop-bookshop/animation.mp4"
+  },
+  {
+    "id": "golden-hour",
+    "title": "Golden Hour · 灰色播放器",
+    "description": "暖光房间配大尺寸灰色音乐卡片，进度与播放状态变化。",
+    "status": "近期案例",
+    "gif": "examples/golden-hour/animation.gif",
+    "mp4": "examples/golden-hour/animation.mp4"
+  },
+  {
+    "id": "quiet-room-score",
+    "title": "蓝色画板 · 安静的乐谱",
+    "description": "大片蓝色留白承载流动白色乐谱，与花朵建立连接。",
+    "status": "近期案例",
+    "gif": "examples/quiet-room-score/animation.gif",
+    "mp4": "examples/quiet-room-score/animation.mp4"
+  },
+  {
+    "id": "sweeter-afternoon",
+    "title": "樱桃午后 · 云朵小人",
+    "description": "手绘云朵、落星、悬挂小人与逐字短句组成循环。",
+    "status": "近期案例",
+    "gif": "examples/sweeter-afternoon/animation.gif",
+    "mp4": "examples/sweeter-afternoon/animation.mp4"
+  },
+  {
+    "id": "one-more-chapter",
+    "title": "苹果与书 · One More Chapter",
+    "description": "苹果阅读场景适配中性灰播放器。",
+    "status": "改用既有效果",
+    "gif": "examples/one-more-chapter/animation.gif",
+    "mp4": "examples/one-more-chapter/animation.mp4"
+  },
+  {
+    "id": "sweet-focus-ios",
+    "title": "甜品独处 · iOS 专注模式",
+    "description": "灰黑磨砂胶囊与白色选中态依次切换。",
+    "status": "配色修订版",
+    "gif": "examples/sweet-focus-ios/animation.gif",
+    "mp4": "examples/sweet-focus-ios/animation.mp4"
+  },
+  {
+    "id": "slow-sunday",
+    "title": "Slow Sunday · 粉色音乐页眉",
+    "description": "大粉色页眉、星星、耳机线和播放器组合。",
+    "status": "参考复刻练习",
+    "gif": "examples/slow-sunday/animation.gif",
+    "mp4": "examples/slow-sunday/animation.mp4"
+  },
+  {
+    "id": "little-afternoon",
+    "title": "Little Afternoon · 音乐雨",
+    "description": "五线谱、耳机线、雨字与雨滴交织。",
+    "status": "参考复刻练习",
+    "gif": "examples/little-afternoon/animation.gif",
+    "mp4": "examples/little-afternoon/animation.mp4"
+  },
+  {
+    "id": "own-the-moment",
+    "title": "Own the Moment · 咖啡云朵",
+    "description": "杯沿小人、云朵与落星形成手绘互动。",
+    "status": "参考复刻练习",
+    "gif": "examples/own-the-moment/animation.gif",
+    "mp4": "examples/own-the-moment/animation.mp4"
+  },
+  {
+    "id": "coffee-pause-v2",
+    "title": "Coffee Pause · 数字连线杯 v2",
+    "description": "对称杯形；线条到达后，数字才变为英文。",
+    "status": "时序与杯形修订",
+    "gif": "examples/coffee-pause-v2/animation.gif",
+    "mp4": "examples/coffee-pause-v2/animation.mp4"
+  },
+  {
+    "id": "lime-wordsearch",
+    "title": "LIME · 找单词",
+    "description": "字母网格、圈词与散落动作围绕饮料展开。",
+    "status": "早期参考练习",
+    "gif": "examples/lime-wordsearch/animation.gif",
+    "mp4": "examples/lime-wordsearch/animation.mp4"
+  },
+  {
+    "id": "lemon-flowing-v2",
+    "title": "FLOWING · 独立漂移 v2",
+    "description": "调整为独立字母漂移，配合气泡。",
+    "status": "针对环绕问题修订",
+    "gif": "examples/lemon-flowing-v2/animation.gif",
+    "mp4": "examples/lemon-flowing-v2/animation.mp4"
+  },
+  {
+    "id": "off-duty-on-play",
+    "title": "Off Duty · 音乐脚印",
+    "description": "卧室静物里脚印转为音乐元素。",
+    "status": "早期实验 · 尺度偏小",
+    "gif": "examples/off-duty-on-play/animation.gif",
+    "mp4": "examples/off-duty-on-play/animation.mp4"
+  },
+  {
+    "id": "autumn-on-board",
+    "title": "Autumn on Board · 银杏",
+    "description": "蝴蝶在两片银杏叶之间移动。",
+    "status": "早期实验 · 动效不够明显",
+    "gif": "examples/autumn-on-board/animation.gif",
+    "mp4": "examples/autumn-on-board/animation.mp4"
+  },
+  {
+    "id": "sweet-focus",
+    "title": "Sweet Focus · 初版",
+    "description": "甜品场景中的暖色专注胶囊。",
+    "status": "历史反例 · 配色偏离 iOS",
+    "gif": "examples/sweet-focus/animation.gif",
+    "mp4": "examples/sweet-focus/animation.mp4"
+  },
+  {
+    "id": "mental-battery-ios",
+    "title": "Mental Battery · 灰色修订",
+    "description": "将电量卡片改为灰色，但效果家族仍不合要求。",
+    "status": "历史反例 · 仅改色不够",
+    "gif": "examples/mental-battery-ios/animation.gif",
+    "mp4": "examples/mental-battery-ios/animation.mp4"
+  },
+  {
+    "id": "mental-battery",
+    "title": "Mental Battery · 初版",
+    "description": "苹果主题电量卡片与状态变化。",
+    "status": "历史反例 · 选型与配色不合要求",
+    "gif": "examples/mental-battery/animation.gif",
+    "mp4": "examples/mental-battery/animation.mp4"
+  },
+  {
+    "id": "coffee-pause",
+    "title": "Coffee Pause · 初版",
+    "description": "数字与英文连线杯的首轮尝试。",
+    "status": "历史反例 · 杯形与触发时序",
+    "gif": "examples/coffee-pause/animation.gif",
+    "mp4": "examples/coffee-pause/animation.mp4"
+  },
+  {
+    "id": "lemon-flowing",
+    "title": "FLOWING · 初版",
+    "description": "字母绕杯运动的首轮尝试。",
+    "status": "历史反例 · 误读为环绕",
+    "gif": "examples/lemon-flowing/animation.gif",
+    "mp4": "examples/lemon-flowing/animation.mp4"
+  },
+  {
+    "id": "little-escape",
+    "title": "Little Escape · 彩色小屋",
+    "description": "手绘标题、星星、箭头与花朵装饰。",
+    "status": "历史实验 · 用户不满意",
+    "gif": "examples/little-escape/animation.gif",
+    "mp4": "examples/little-escape/animation.mp4"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "description": "Approximate reference-derived iOS-style defaults, not official Apple specifications. Use for UI-01/UI-02; do not override colorful header/map references.",
+  "fontFamily": "Helvetica Neue, Helvetica, Arial, sans-serif",
+  "darkGlass": {"top": "#626265", "bottom": "#3e3e42", "topOpacity": 0.84, "bottomOpacity": 0.9, "text": "#ffffff", "secondaryText": "#d2d2d7"},
+  "lightGlass": {"top": "#f2f2f4", "bottom": "#d7d7db", "topOpacity": 0.88, "bottomOpacity": 0.92, "text": "#1c1c1e", "secondaryText": "#6c6c70"},
+  "stroke": "#ffffff",
+  "cable": "#f5f5f7",
+  "accent": {"charging": "#30d158", "lowBattery": "#ff453a"},
+  "cornerRadiusAt720px": 28,
+  "blurRadiusAt720px": 20
+}
