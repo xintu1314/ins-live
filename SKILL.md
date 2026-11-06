@@ -43,6 +43,8 @@ description: 优先套用用户已提供的 INS 动效参考，将照片制成�
 python3 scripts/inspect_clip.py INPUT.mp4 --out-dir OUTPUT/reference --count 12
 ```
 
+选择 COL-02 黄色分屏时，必须读取 [黄色分屏模板](references/yellow-split-template.md)，先锁定 half-50 或 source-29，再按其卡片位置、双耳罩与 Y 形线缆结构制作。“一半一半”明确指 half-50，不得做成顶部横幅。
+
 为参考指定职责：**构图、材质/字体、动作/时序**，记录继承什么、不继承什么。反例仅用于识别失败，不能当默认生成输入。参考不能把源品牌、人物、物体或文字混进新图。
 
 建立四项简短制作约束：
