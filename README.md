@@ -50,7 +50,7 @@ git clone https://github.com/xintu1314/ins-live.git ~/.codex/skills/ins-live
 
 完整定义见 [效果库](references/effect-library.md)。包内包含 **7 段参考视频、3 张参考拼图**，参考与成品分开管理，见 [参考索引](references/media-index.md)。
 
-黄色音乐分屏另有[具体构图模板](references/yellow-split-template.md)：区分 50/50 适配版与约 29/71 的原视频版，锁定杯右侧播放器、双耳罩、Y 形线缆和可动参数；不只复用黄色与音符。
+黄色音乐分屏另有[具体构图模板](references/yellow-split-template.md)：以近似 50/50 或原视频约 29/71 为构图起点，按照片动态调整比例、卡片尺寸与位置；保留播放器、双耳罩和 Y 形线缆的关联，不要求 1:1 复刻。
 
 ## 从照片到成品
 
