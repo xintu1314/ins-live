@@ -5,7 +5,7 @@
 这是一个供 Codex 等支持本地 Skill 的 Agent 使用的创作流程：先读图、对照参考、提出 **3 个文字方案**，你选定后，再制作静帧、分层动画与最终文件。适合音乐卡片、手绘互动、漂浮字母、专注模式和透视地图等 INS 风格动效。
 
 <p align="center"><img src="examples/under-the-trees/animation.gif" width="420" alt="树影咖啡：手绘耳机、流动五线谱与灰色播放器"></p>
-<p align="center"><a href="examples/under-the-trees/animation.mp4">查看 MP4</a> · <a href="#全部动图案例">22 个动图案例</a> · <a href="SKILL.md">阅读完整 Skill</a></p>
+<p align="center"><a href="examples/under-the-trees/animation.mp4">查看 MP4</a> · <a href="#全部动图案例">24 个动图案例</a> · <a href="SKILL.md">阅读完整 Skill</a></p>
 
 ## 怎么使用
 
@@ -39,6 +39,8 @@ git clone https://github.com/xintu1314/ins-live.git ~/.codex/skills/ins-live
 | 方向 | 视觉与动作 |
 | --- | --- |
 | 大型音乐 / 播客卡片 | 灰色磨砂、进度条、播放状态、实物遮挡 |
+| 人物穿插播放器 | 中性灰磨砂卡、人物前景遮挡、进度与音频柱变化 |
+| 竖排句子 / 字母穿插 | 粗体窄文字列，字母聚拢、实物前后层、停留后散开 |
 | 专注 / 心情胶囊 | 灰黑半透明与白色选中态，依次切换 |
 | 地图落地 | 地面透视、路线出现、鞋子等前景遮挡 |
 | 粉色 / 黄色音乐页眉 | 大面积参考色、耳机线、星星或五线谱 |
@@ -48,7 +50,7 @@ git clone https://github.com/xintu1314/ins-live.git ~/.codex/skills/ins-live
 | 云朵小人 | 云朵、落星、接触点摆动与逐字短句 |
 | 音乐雨 / 五线谱 | 白色波动乐谱、流动音符、耳机线和雨滴 |
 
-完整定义见 [效果库](references/effect-library.md)。包内包含 **7 段参考视频、3 张参考拼图**，参考与成品分开管理，见 [参考索引](references/media-index.md)。
+完整定义见 [效果库](references/effect-library.md)。包内包含 **7 段参考视频、4 张参考拼图**，参考与成品分开管理，见 [参考索引](references/media-index.md)。
 
 黄色音乐分屏另有[具体构图模板](references/yellow-split-template.md)：以近似 50/50 或原视频约 29/71 为构图起点，按照片动态调整比例、卡片尺寸与位置；保留播放器、双耳罩和 Y 形线缆的关联，不要求 1:1 复刻。
 
@@ -64,7 +66,14 @@ GIF / MP4 不等于 Apple Live Photo；界面中出现播放器，也不代表�
 
 ## 全部动图案例
 
-以下收录本轮创作过程中生成的 **全部 22 个动图成品版本**，包括早期实验、修订和反例。它们用于展示尝试与改进，**不代表每一版都获得了用户认可，也不代表全部由当前版本流程生成**。标题下保留版本说明；点击 MP4 可查看视频文件。
+以下收录本轮创作过程中生成的 **全部 24 个动图成品版本**，包括早期实验、修订和反例。它们用于展示尝试与改进，**不代表每一版都获得了用户认可，也不代表全部由当前版本流程生成**。标题下保留版本说明；点击 MP4 可查看视频文件。
+
+新增两例使用新的 AI 底图；参考拼图只提供视觉关系，6 秒循环运动为新设计，尚待用户评价。具体规范见 [人物播放器](references/scene-player-template.md) 与 [竖排字母](references/vertical-letter-template.md)。
+
+<table><tr>
+<td width="50%" valign="top"><h3>A Quieter Day · 人物穿插播放器</h3><img src="examples/portrait-player/animation.gif" width="300" alt="A Quieter Day · 人物穿插播放器"><p>灰色磨砂横卡位于人物后景，头发遮挡卡片；进度点前进，音频柱起伏。</p><p><a href="examples/portrait-player/animation.mp4">MP4</a> · <a href="examples/portrait-player/source.png">生成底图</a> · <a href="examples/portrait-player/motion-check.jpg">时序检查</a></p></td>
+<td width="50%" valign="top"><h3>Listen · 竖排字母穿插</h3><img src="examples/vertical-letters/animation.gif" width="300" alt="Listen · 竖排字母穿插"><p>字母从两侧聚拢成句，穿过透明杯的前后层，停留后散开。</p><p><a href="examples/vertical-letters/animation.mp4">MP4</a> · <a href="examples/vertical-letters/source.png">生成底图</a> · <a href="examples/vertical-letters/motion-check.jpg">时序检查</a></p></td>
+</tr></table>
 
 <table>
 <tr>
@@ -166,6 +175,8 @@ GIF / MP4 不等于 Apple Live Photo；界面中出现播放器，也不代表�
 <td width="50%"><strong>冷调书店街角底图</strong><br><img src="examples/stills/street-base.png" width="300" alt="冷调书店街角底图"></td>
 <td width="50%"><strong>PAUSE 静态示例</strong><br><img src="examples/stills/pause-keyframe.png" width="300" alt="PAUSE 静态示例"></td>
 </tr></table>
+
+本次新增两例的底图提示词与可复现渲染入口见 [示例制作说明](examples/_render/README.md)。
 
 ## 包内文件与工具
 

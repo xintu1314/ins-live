@@ -1,5 +1,27 @@
 [
   {
+    "id": "portrait-player",
+    "title": "A Quieter Day · 人物穿插播放器",
+    "description": "灰色磨砂横卡位于人物后景，头发遮挡卡片；进度点前进，音频柱起伏。",
+    "status": "新增参考适配 · 原创运动时序 · 尚待用户评价",
+    "gif": "examples/portrait-player/animation.gif",
+    "mp4": "examples/portrait-player/animation.mp4",
+    "effect": "UI-01A",
+    "duration_seconds": 6,
+    "fps": 20
+  },
+  {
+    "id": "vertical-letters",
+    "title": "Listen · 竖排字母穿插",
+    "description": "字母从两侧聚拢成句，穿过透明杯的前后层，停留后散开。",
+    "status": "新增参考适配 · 原创运动时序 · 尚待用户评价",
+    "gif": "examples/vertical-letters/animation.gif",
+    "mp4": "examples/vertical-letters/animation.mp4",
+    "effect": "TYPE-04",
+    "duration_seconds": 6,
+    "fps": 20
+  },
+  {
     "id": "under-the-trees",
     "title": "树影咖啡 · 耳机与五线谱",
     "description": "白色耳机贴合咖啡，宽幅五线谱与音符流动，搭配灰色播放器。",

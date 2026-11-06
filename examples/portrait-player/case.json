@@ -1,0 +1,15 @@
+{
+  "effect": "UI-01A",
+  "reference": "references/media/music-cards.jpg",
+  "reference_kind": "static collage",
+  "motion_origin": "New animation designed for this example; not verified motion from source collage",
+  "base_origin": "AI generated with built-in image_gen",
+  "duration_seconds": 6,
+  "fps": 20,
+  "resolution": [
+    720,
+    960
+  ],
+  "review": "390px keyframe and four timed frames reviewed; full realtime playback was not reviewed",
+  "user_approval": "not yet received"
+}

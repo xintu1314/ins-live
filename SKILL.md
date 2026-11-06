@@ -5,7 +5,7 @@ description: 优先套用用户已提供的 INS 动效参考，将照片制成�
 
 # INS 动态照片创意导演
 
-功能不变：[效果库](references/effect-library.md)、7 段参考视频、3 张参考拼图、GIF/MP4 交付都保留。本次改进的是制作流程。
+功能不变：[效果库](references/effect-library.md)、7 段参考视频、4 张参考拼图、GIF/MP4 交付都保留。本次改进的是制作流程。
 
 ## 用户要求与任务边界
 
@@ -42,6 +42,8 @@ description: 优先套用用户已提供的 INS 动效参考，将照片制成�
 ```bash
 python3 scripts/inspect_clip.py INPUT.mp4 --out-dir OUTPUT/reference --count 12
 ```
+
+选择人物遮挡式灰色播放器时，读取 [场景播放器模板](references/scene-player-template.md)；选择竖排句子/字母穿插时，读取 [竖排字母模板](references/vertical-letter-template.md)。二者按照片动态排版，静态参考的动效必须标明为原创设计。
 
 选择 COL-02 黄色分屏时，读取 [黄色分屏模板](references/yellow-split-template.md)。以参考布局为起点，按照片动态调整分区比例、卡片大小与位置，保留上下分区、播放器与主体、耳机线缆的结构关系；不默认要求 1:1 复刻。用户指定精确数值时才固定对应参数，静帧定稿后再锁定动画布局。
 
