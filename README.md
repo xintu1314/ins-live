@@ -40,7 +40,7 @@ git clone https://github.com/xintu1314/ins-live.git ~/.codex/skills/ins-live
 | --- | --- |
 | 大型音乐 / 播客卡片 | 灰色磨砂、进度条、播放状态、实物遮挡 |
 | 人物穿插播放器 | 中性灰磨砂卡、人物前景遮挡、进度与音频柱变化 |
-| 竖排句子 / 字母穿插 | 粗体窄文字列，字母聚拢、实物前后层、停留后散开 |
+| 竖排句子 / 字母穿插 | 粗体窄文字列，原位放大回落、实物前后层、全程可读 |
 | 专注 / 心情胶囊 | 灰黑半透明与白色选中态，依次切换 |
 | 地图落地 | 地面透视、路线出现、鞋子等前景遮挡 |
 | 粉色 / 黄色音乐页眉 | 大面积参考色、耳机线、星星或五线谱 |
@@ -72,7 +72,7 @@ GIF / MP4 不等于 Apple Live Photo；界面中出现播放器，也不代表�
 
 <table><tr>
 <td width="50%" valign="top"><h3>A Quieter Day · 人物穿插播放器</h3><img src="examples/portrait-player/animation.gif" width="300" alt="A Quieter Day · 人物穿插播放器"><p>灰色磨砂横卡位于人物后景，头发遮挡卡片；进度点前进，音频柱起伏。</p><p><a href="examples/portrait-player/animation.mp4">MP4</a> · <a href="examples/portrait-player/source.png">生成底图</a> · <a href="examples/portrait-player/motion-check.jpg">时序检查</a></p></td>
-<td width="50%" valign="top"><h3>Listen · 竖排字母穿插</h3><img src="examples/vertical-letters/animation.gif" width="300" alt="Listen · 竖排字母穿插"><p>字母从两侧聚拢成句，穿过透明杯的前后层，停留后散开。</p><p><a href="examples/vertical-letters/animation.mp4">MP4</a> · <a href="examples/vertical-letters/source.png">生成底图</a> · <a href="examples/vertical-letters/motion-check.jpg">时序检查</a></p></td>
+<td width="50%" valign="top"><h3>Listen · 竖排字母穿插</h3><img src="examples/vertical-letters/animation.gif" width="300" alt="Listen · 竖排字母穿插"><p>完整句子持续可见，文字逐行原位放大再回落，没有消散退场。</p><p><a href="examples/vertical-letters/animation.mp4">MP4</a> · <a href="examples/vertical-letters/source.png">生成底图</a> · <a href="examples/vertical-letters/motion-check.jpg">时序检查</a></p></td>
 </tr></table>
 
 <table>

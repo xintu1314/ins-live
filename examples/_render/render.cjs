@@ -11,18 +11,20 @@ function player(t,blur,cover){
 }
 const words=['Listen','to','the','ocean’s','whisper'];
 const widths={'Listen':166,'to':52,'the':82,'ocean’s':217,'whisper':214};
-function letters(t){let content='';const release=smooth((t-4.35)/1.5),entrance=smooth(t/.4);let k=0;
+function letters(t){let content='';
+ // Stable full sentence: each word gently scales up then returns; no scatter, fade or entrance displacement.
  for(let row=0;row<words.length;row++){
- const word=words[row],w=widths[word],step=w/word.length;
- for(let j=0;j<word.length;j++,k++){
-  const u=smooth((t-.08*k)/1.05),flight=1-u,side=(k%2?1:-1),dx=side*(95*flight+100*release),dy=(row%2?1:-1)*35*flight-55*release+release*18*Math.sin(j*.7+t*4),rot=side*(14*flight+18*release),alpha=entrance*(1-release)*(.35+.65*u);
-  const xx=360-w/2+(j+.5)*step+dx,yy=256+row*99+dy;
-  content+=`<text x="${xx}" y="${yy}" text-anchor="middle" transform="rotate(${rot} ${xx} ${yy})" opacity="${alpha}" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="55" font-weight="750" fill="#f7f6e9">${word[j]==='’'?'&#8217;':word[j]}</text>`;
+ const word=words[row],w=widths[word],step=w/word.length,yy=256+row*99;
+ const u=((t-row*.42)%DURATION+DURATION)%DURATION;
+ const scale=1+.18*(u<2.4?Math.pow(Math.sin(Math.PI*u/2.4),2):0);
+ let line='';
+ for(let j=0;j<word.length;j++){
+ const xx=360-w/2+(j+.5)*step;
+ line+=`<text x="${xx}" y="${yy}" text-anchor="middle" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="55" font-weight="750" fill="#f7f6e9">${word[j]==='’'?'&#8217;':word[j]}</text>`;
  }
+ content+=`<g transform="translate(360 ${yy-18}) scale(${scale}) translate(-360 ${18-yy})">${line}</g>`;
  }
- // Transparent glass attenuates rear letters, retaining legibility rather than using an opaque rectangular mask.
- const backWeight=.25+.75*smooth((t-1.8)/1.2);
- return svg(`<defs><mask id="glassDepth"><rect width="720" height="960" fill="white"/><path d="M271 373 C274 338 444 336 447 374 L416 633 Q364 658 300 631Z" fill="rgb(${Math.round(255*backWeight)},${Math.round(255*backWeight)},${Math.round(255*backWeight)})"/></mask></defs><g mask="url(#glassDepth)">${content}</g>`);
+ return svg(`<defs><mask id="glassDepth"><rect width="720" height="960" fill="white"/><path d="M271 373 C274 338 444 336 447 374 L416 633 Q364 658 300 631Z" fill="#ededed"/></mask></defs><g mask="url(#glassDepth)">${content}</g>`);
 }
 async function main(){
  const mode=process.argv[2]||'keyframes',id=process.argv[3];

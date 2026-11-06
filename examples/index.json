@@ -13,8 +13,8 @@
   {
     "id": "vertical-letters",
     "title": "Listen · 竖排字母穿插",
-    "description": "字母从两侧聚拢成句，穿过透明杯的前后层，停留后散开。",
-    "status": "新增参考适配 · 原创运动时序 · 尚待用户评价",
+    "description": "完整句子持续可见，文字逐行原位放大再回落，没有消散退场。",
+    "status": "按用户反馈修订 · 放大循环",
     "gif": "examples/vertical-letters/animation.gif",
     "mp4": "examples/vertical-letters/animation.mp4",
     "effect": "TYPE-04",

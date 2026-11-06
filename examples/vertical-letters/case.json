@@ -11,5 +11,7 @@
     960
   ],
   "review": "390px keyframe and four timed frames reviewed; full realtime playback was not reviewed",
-  "user_approval": "not yet received"
+  "user_approval": "revision requested; revised output not yet evaluated",
+  "motion": "Full sentence always visible; words scale 1.00→1.18→1.00 with stagger, no entrance scatter or fade-out",
+  "user_feedback": "Remove final dispersion; use simple letter enlargement"
 }
